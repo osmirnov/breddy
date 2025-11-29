@@ -1,0 +1,23 @@
+# Defensive Planner - Requirements
+# Python 3.10+
+
+# Core Dependencies
+google-adk
+
+# Standard Library (included in Python)
+# - json
+# - random
+# - typing
+# - datetime
+# - enum
+# - os
+
+# Optional for local development
+# python-dotenv>=1.0.0
+# jupyter>=1.0.0
+# notebook>=7.0.0
+
+# For testing (optional)
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
+
