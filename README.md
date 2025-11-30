@@ -1,6 +1,6 @@
 # 🚨 B.RED.DY - The Defensive Planner Agent
 
-![B.RED.DY Logo](./breddy-logo.jpeg)
+![B.RED.DY Logo](breddy-logo.png)
 
 > _"Ensuring your Plan B doesn't turn red"_
 
