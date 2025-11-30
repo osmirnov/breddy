@@ -42,8 +42,15 @@ graph TD
     
     subgraph "Phase 2: Recovery & Execution"
         Risk --> Recovery[Recovery Agent]
-        Recovery -->|Fix Plan| Loop
-        Recovery -->|Success/Exit| Final[Final Itinerary]
+        Recovery --> Decision{Assessment}
+        
+        Decision -->|Failure/Risk| News[Tool: Fetch News Context]
+        News -->|Refine Plan| Loop
+        
+        Decision -->|Success| Clothing{Clothing Request?}
+        Clothing -->|Yes| A2A[Tool: A2A Outfit Coordinator]
+        A2A --> Final[Final Itinerary]
+        Clothing -->|No| Final
     end
 ```
 
